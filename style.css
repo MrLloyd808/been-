@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head a{
+  text-decoration: none;
+  color: #415987;
+  font-size: 14px;
+  line-height: 40px;
+}
+.head{
+  background-color: #FFFBE2;
+  height: 40px;
+  width: 100vw;
+  display: flex;
+}
+.logo img{
+  height: 40px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+}
+.datavalue{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.emailclass{
+  padding: 12px;
+  width: 90%;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #F5F6F8;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.emailclass:hover,.passclass:hover{
+  border: 1px solid black;
+}
+.datavalue input {
+  font-size: 14px;
+}
+.passclass{
+  padding: 12px;
+  width: 90%;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #F5F6F8;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-bottom: 7px;
+  outline: none;
+}
+.loginbtn{
+  padding: 0px;
+  width: 90%;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #1878F3;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.forgot{
+  text-align: center;
+  margin-top: 10px;
+}
+.forgot a{
+  text-decoration: none;
+  color: #1878F3;
+  font-size: 14px;
+}
+.ther{
+  color: dimgray;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+.signup{
+  padding: 0px;
+  width: 50%;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #00A400;
+  border: 1px
+  solid lightgray;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px
+}
+.foot a{
+  text-decoration: none;
+  color: #425889;
+  font-size: 13px;
+  font-weight: 450;
+  display: block;
+  margin-bottom: 2px;
+}
+.foot2 a{
+  text-decoration: none;
+  color: #425889;
+  font-size: 13px;
+  font-weight: 450;
+  display: block;
+  margin-bottom: 2px;
+}
+.ftr{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 90px;
+}
+.pls{
+  border: 1px solid #425889;
+  width: 18px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 5px;
+}
+.act{
+  color: gray !important;
+}
+.AHM{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 8px;
+  color: gray;
+}
+.Meta{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  color: gray;
+}
+
+input{
+    border: dotted;
+}
